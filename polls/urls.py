@@ -3,5 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', git)
+    path('', views.index, name= 'index'),
 ]
